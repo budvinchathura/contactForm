@@ -1,0 +1,111 @@
+body{
+	background-image: url(coverImg.jpg);
+	background-position: 60% 20%;
+	background-size: 300%;
+	background-repeat: no-repeat;
+	font-family: sans-serif;
+	height: 1200px;
+	
+}
+
+.cForm{
+	background: #EEE;
+	position: absolute;
+	align-content: center;
+	width: 500px;
+	height: 950px;
+	left:50%;
+	top: 50%;
+	transform: translate(-50% ,-200px);
+	border-bottom: 40px;
+
+
+}
+
+.avatar{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	left: calc(50% - 50px);
+	top: -50px;
+	
+
+}
+
+h1{
+	text-align: center;
+	margin-top: 17%;
+	font-size: 40px;
+	font-family: monospace;
+}
+
+.nameImg{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 30%;
+}
+
+.cForm input[type="text"]{
+	position: relative;
+	left: calc(50% - 200px);
+	border: none;
+	width: 400px;
+	height: 30px;
+	outline: none;
+	font-size: 20px;
+	font-style: bolder;
+	border-bottom: 1px solid purple;
+	background: transparent;
+	/*float: all;*/
+	/*margin-bottom: 50px;*/
+
+}
+
+.uName, .cNo, .eMail{
+	margin-bottom: 15%;
+}
+
+/*.cForm img{
+	position: relative;
+	width: 50px;
+	height: 50px;
+	top: 20px;
+	border: 3px solid #fff;
+}*/
+
+.namPic, .conPic, .emPic, .adPic{
+
+	width: 50px;
+	height: 50px;
+
+}
+
+label{
+	display: block;
+	margin-left: calc(50% - 25px);
+}
+
+.subButton{
+	margin-top: 30px;
+	background: purple;
+	border-radius: 20px;
+	width: 150px;
+	border:none;
+	height: 40px;
+	position: relative;
+	left: calc(50% - 75px);
+	font-size: 25px;
+	color: white;
+	outline: none;
+	margin-bottom: 35px;
+
+
+}
+
+.ad1, .ad2{
+	margin-bottom: 10px;
+}
+
+
+
